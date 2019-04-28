@@ -1,4 +1,9 @@
-# Ardunimo
+# Arduino-Nim
+
+This is a fork of the great repo "Arduino-Nim". I am working on this repository to make Arduino-Nim the standard library for Arduino in the new Nim programming language. The main goal is to improve the already excellent Ardunimo code to make it more stableand wider compatible with Arduino boards.
+
+-------
+
 This is a first stab at Arduino programming on the <a href="https://www.hackster.io/mediateklabs/products/linkit-one">LinkIt ONE development board</a> from MediaTek using the brilliant <a href="http://nim-lang.org">programming language Nim</a>.
 
 This project basically consists of two Makefiles, one in the `wrapper`subdirectory that can semi automatically generate the Nim wrapper of the Arduino and MediaTek libraries for the LinkIt ONE using the very useful `c2nim` tool. The other Makefile in the root directory is for compiling a Nim program using the wrapper and the SDK from MediaTek to produce a .vxp binary file that can be dropped into the USB disk on the board.
