@@ -1,6 +1,6 @@
 # Arduino-Nim
 
-This is a fork of the great repo "Arduino-Nim". I am working on this repository to make Arduino-Nim the standard library for Arduino and LinkIt in the new Nim programming language. The main goal is to improve the already excellent Ardunimo code to make it more stable and wider compatible with Arduino boards.
+This is a fork of the great repo "Ardunimo". I am working on this repository to make Arduino-Nim the standard library for Arduino and LinkIt in the new Nim programming language. The main goal is to improve the already excellent Ardunimo code to make it more stable and wider compatible with Arduino boards.
 
 -------
 
